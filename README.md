@@ -43,12 +43,12 @@ cd pong-game
 
 3. Install the required dependencies:
 ```sh
-pip install pygame
+pip install turtle
 ```
 
 4. Run the game:
 ```sh
-python pong.py
+python main.py
 ```
 
 ## How to Play
