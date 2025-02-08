@@ -1,6 +1,6 @@
 # Pong Game
 
-A simple implementation of the classic Pong game using Python and the Pygame library.
+A simple implementation of the classic Pong game using Python and Turtle library.
 
 ## Table of Contents
 - [About the Project](#about-the-project)
@@ -15,18 +15,18 @@ A simple implementation of the classic Pong game using Python and the Pygame lib
 - [License](#license)
 
 ## About the Project
-Pong is one of the earliest arcade video games. This project is a Python-based recreation using the Pygame library, allowing two players to compete against each other by bouncing a ball back and forth using paddles.
+Pong is one of the earliest arcade video games. This project is a Python-based recreation using the Turtle library, allowing two players to compete against each other by bouncing a ball back and forth using paddles.
 
 ## Features
 ✅ Classic Pong game mechanics with a bouncing ball and paddle movement.  
 ✅ Two-player mode with individual controls.  
 ✅ Score tracking for each player.  
 ✅ Adjustable ball speed to increase difficulty.  
-✅ Simple yet smooth animations using Pygame.
+✅ Simple yet smooth animations using Turtle.
 
 ## Technologies Used
 - Python
-- Pygame (for graphics and game loop)
+- Turtle (for graphics and game loop)
 
 ## Installation
 To run the game on your system, follow these steps:
@@ -67,10 +67,12 @@ python pong.py
 
 ## Project Structure
 ```
-├── pong.py            # Main game script
-├── assets/            # (Optional) Folder for images or sound effects
+├── main.py            # Main game script
+├── ball               # script for ball
+└── paddle             # script for paddle
+└── scoreboard         # script for scoreboard
 ├── README.md          # Documentation
-└── requirements.txt   # Python dependencies (if applicable)
+└──    # Python dependencies (if applicable)
 ```
 
 ## Future Enhancements
@@ -82,7 +84,4 @@ python pong.py
 ## Screenshots
 (Add screenshots of your game here)
 ![image](https://github.com/user-attachments/assets/e2425ebf-c6f9-4ac1-949c-75042dfe7775)
-
-## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
